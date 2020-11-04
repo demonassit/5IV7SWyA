@@ -20,7 +20,7 @@ public class PrinViggenere {
     
     //metodo para recibir el mensaje y la clave
     
-    public Mensaje(String msj, String clave){
+    public PrinViggenere(String msj, String clave){
         
         //obtener el mensaje y la clave y mandarlos a los arreglos de char
         this.mensaje = msj.toCharArray();

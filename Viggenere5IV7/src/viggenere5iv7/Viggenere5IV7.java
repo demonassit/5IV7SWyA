@@ -16,6 +16,8 @@ public class Viggenere5IV7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        //ahi les encargo mi interfaz :3 asi bien kawaii 
     }
     
 }
