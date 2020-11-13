@@ -74,6 +74,7 @@ public class DES {
         //como todo esta en bites o bytes dependiendo tenemos que crear un metodo para poderlos ver
         mostrarBytes(clave.getEncoded());
         
+        System.out.println("Clave codificada"+clave.getEncoded());
         System.out.println();
         
         //Paso 2: crear el cifrador
