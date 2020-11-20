@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AES con funciones</title>
+    
+</head>
+<body>
+
+    <textarea id="elhtml"  placeholder="el HTML que vamos a cifrar" rows="5" cols="32" >
+          </textarea>
+    <br>
+    <input type="password" id="clave" name="clave" placeholder="Ingresa el password " 
+    value="" >
+    <button id="damelaCrypto" >Enviar</button>
+
+    <br>
+    <p>Aqui va el texto cifrado</p>
+    <br>
+    <textarea id="encriptado" rows="5" cols="32" ></textarea>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js" ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
+
+    <script src="js/cifradoxfun.js" ></script>
+
+</body>
+</html>
