@@ -97,4 +97,29 @@ public class rsa{
 
         return (new String(charArray));
     }
+
+
+    public BigInteger damep(){
+        return (p);
+    }
+
+    public BigInteger dameq(){
+        return (q);
+    }
+
+    public BigInteger dametotient(){
+        return (totient);
+    }
+
+    public BigInteger damen(){
+        return (n);
+    }
+
+    public BigInteger damee(){
+        return (e);
+    }
+
+    public BigInteger damed(){
+        return (d);
+    }
 }
